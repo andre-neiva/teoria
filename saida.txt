@@ -1,0 +1,4 @@
+A palavra 010 não foi aceita
+A palavra 011 não foi aceita
+A palavra 100 não foi aceita
+A palavra 101 foi aceita
