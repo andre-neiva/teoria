@@ -90,7 +90,7 @@ def AFN_to_AFD(afn: AF): # Função que converte um autômato finito não determ
                 transitions[symbol] = list(transitions[symbol])[0]
 
         afd = AFD(afn.A, afn.Q, afn.q, afn.T, afn.F) # Cria um autômato finito determinístico
-        return afd # Retorna o autômato finito determinístico
+        return afd # Retorna o autômato finito determiníst
     except Exception as e:
         raise ValueError(f"Erro ao converter AFN para AFD: {e}")
 
